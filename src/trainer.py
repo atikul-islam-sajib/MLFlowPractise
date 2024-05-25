@@ -1,9 +1,11 @@
 import os
 import torch
+import argparse
 import numpy as np
 from tqdm import tqdm
+from utils import config, dump, load
 from helper import helpers
-from utils import config
+import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
 
 
@@ -46,6 +48,7 @@ class Trainer:
         self.criterion = self.init["criterion"]
         self.optimizer = self.init["optimizer"]
 
+        self.history = {"train_loss": [], "test_loss": []}
         self.loss = float("inf")
         self.config = config()
 
@@ -131,7 +134,7 @@ class Trainer:
             train_loss = []
             test_loss = []
 
-            for index, (X, y) in enumerate(self.train_dataloader):
+            for _, (X, y) in enumerate(self.train_dataloader):
                 X, y = X.to(self.device), y.to(self.device)
                 predicted, loss = self.update_model(X=X, y=y.unsqueeze(1).float())
 
@@ -166,9 +169,66 @@ class Trainer:
 
             self.saved_models(epoch=epoch + 1, train_loss=np.mean(train_loss))
 
+            self.history["train_loss"].append(np.mean(train_loss))
+            self.history["test_loss"].append(np.mean(test_loss))
+
+        print("Training is completed")
+
+        dump(
+            value=self.history,
+            filename=os.path.join(config()["path"]["files_path"], "history.pkl"),
+        )
+
+    @staticmethod
+    def plot_history():
+        plt.figure(figsize=(10, 5))
+
+        history = load(
+            filename=os.path.join(config()["path"]["files_path"], "history.pkl")
+        )
+
+        for filename, loss in history.items():
+            plt.plot(loss, label=filename)
+            plt.xlabel("Epochs")
+            plt.ylabel("Loss")
+            plt.legend()
+
+        plt.tight_layout
+        plt.show()
+
 
 if __name__ == "__main__":
-    trainer = Trainer(
-        epochs=10, lr=0.01, beta1=0.5, beta2=0.999, adam=True, SGD=False, device="cpu"
+    parser = argparse.ArgumentParser(
+        description="Trainer code for Breast Cancer".title()
     )
+    parser.add_argument(
+        "--epochs", type=int, default=10, help="Number of epochs".capitalize()
+    )
+    parser.add_argument(
+        "--lr", type=float, default=0.01, help="Learning rate".capitalize()
+    )
+    parser.add_argument("--beta1", type=float, default=0.5, help="Beta1".capitalize())
+    parser.add_argument("--beta2", type=float, default=0.999, help="Beta2".capitalize())
+    parser.add_argument("--adam", type=bool, default=True, help="Adam".capitalize())
+    parser.add_argument("--SGD", type=bool, default=False, help="SGD".capitalize())
+    parser.add_argument("--device", type=str, default="cpu", help="Device".capitalize())
+    parser.add_argument(
+        "--display", type=bool, default=True, help="Display".capitalize()
+    )
+
+    args = parser.parse_args()
+
+    trainer = Trainer(
+        epochs=args.epochs,
+        lr=args.lr,
+        beta1=args.beta1,
+        beta2=args.beta2,
+        adam=args.adam,
+        SGD=args.SGD,
+        device=args.device,
+        is_display=args.display,
+    )
+
     trainer.train()
+
+    trainer.plot_history()
