@@ -81,6 +81,34 @@ This will start the MLflow server, and you can access the UI at `http://localhos
 - `helper.py`: Helper functions for initializing components like model, optimizer, etc.
 - `cli.py`: Command-line interface for running training and testing.
 
+## Docker Usage
+
+To simplify the process of setting up the environment and running the project, a Docker image is available. You can pull and run the Docker image with the following commands.
+
+### Pulling the Docker Image
+
+Pull the Docker image from Docker Hub:
+
+```bash
+docker pull sajibds/clf:latest
+```
+
+### Running the Docker Container
+
+Run the Docker container with the following command. Make sure to mount the dataset directory to the container:
+
+```bash
+docker run -v /path/to/dataset:/app/dataset sajibds/clf:latest --dataset /app/dataset/dataset.csv --batch_size 64 --split_size 0.30 --epochs 200 --lr 0.01 --adam True --display True --train
+```
+
+### Testing with Docker
+
+To test the model using the Docker container, run:
+
+```bash
+docker run sajibds/clf:latest --test
+```
+
 ## Contact
 
 For any questions or issues, please contact Atikul Islam Sajib.
