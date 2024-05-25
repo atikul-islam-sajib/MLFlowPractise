@@ -1,16 +1,15 @@
-import sys
 import os
-import numpy as np
-import traceback
+import sys
 import torch
+import argparse
+import traceback
+import numpy as np
 import pandas as pd
 from torch.utils.data import DataLoader
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
-sys.path.append("src/")
-
-from utils import dump
+from utils import dump, config
 
 
 class Loader:
@@ -18,6 +17,8 @@ class Loader:
         self.dataset = dataset
         self.batch_size = batch_size
         self.split_size = split_size
+
+        self.config = config()
 
     def transform(self, data):
         if isinstance(data, np.ndarray):
@@ -79,9 +80,37 @@ class Loader:
             shuffle=True,
         )
 
+        for filename, value in [
+            ("train_dataloader", train_dataloader),
+            ("test_dataloader", test_dataloader),
+        ]:
+
+            dump(
+                value=value,
+                filename=os.path.join(
+                    self.config["path"]["processed_path"], "{}.pkl".format(filename)
+                ),
+            )
+
 
 if __name__ == "__main__":
-    loader = Loader(
-        dataset="/Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/data/raw/breast-cancer.csv"
+    parser = argparse.ArgumentParser(
+        description="Dataloader for the breast cancer dataset".title()
     )
+    parser.add_argument("--dataset", type=str, help="Path to the dataset".capitalize())
+    parser.add_argument(
+        "--batch_size", type=int, help="Batch size for the dataloader".capitalize()
+    )
+    parser.add_argument(
+        "--split_size", type=float, help="Split size for the dataloader".capitalize()
+    )
+
+    args = parser.parse_args()
+
+    loader = Loader(
+        dataset=args.dataset,
+        batch_size=args.batch_size,
+        split_size=args.split_size,
+    )
+
     loader.create_dataloader()

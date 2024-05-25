@@ -18,5 +18,5 @@ def load(filename=None):
 
 
 def config():
-    with open("./config.yaml", "r") as f:
+    with open("./config.yml", "r") as f:
         return yaml.safe_load(f)
