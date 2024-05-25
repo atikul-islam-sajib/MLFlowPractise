@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/861650276725874608/24906ae6f8424e159cb6c4c30e0db374/artifacts
+deleted_time: 1716661396877
+end_time: 1716661156614
+entry_point_name: ''
+experiment_id: '861650276725874608'
+lifecycle_stage: deleted
+run_id: 24906ae6f8424e159cb6c4c30e0db374
+run_name: gregarious-ant-252
+run_uuid: 24906ae6f8424e159cb6c4c30e0db374
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716661154508
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

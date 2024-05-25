@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/861650276725874608/6aa16ff9c3564ade95905b519fe097c7/artifacts
+deleted_time: 1716661396877
+end_time: 1716661105924
+entry_point_name: ''
+experiment_id: '861650276725874608'
+lifecycle_stage: deleted
+run_id: 6aa16ff9c3564ade95905b519fe097c7
+run_name: efficient-wolf-162
+run_uuid: 6aa16ff9c3564ade95905b519fe097c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716661105910
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

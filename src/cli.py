@@ -1,17 +1,30 @@
+import os
 import argparse
 from test import TestModel
 from trainer import Trainer
 from dataloader import Loader
+from utils import config
 
 
 def cli():
     parser = argparse.ArgumentParser(description="CLI for the project".capitalize())
-    parser.add_argument("--dataset", type=str, help="Path to the dataset".capitalize())
     parser.add_argument(
-        "--batch_size", type=int, help="Batch size for the dataloader".capitalize()
+        "--dataset",
+        type=str,
+        default=os.path.join(config()["path"]["raw_path"], "breast-cancer.csv"),
+        help="Path to the dataset".capitalize(),
     )
     parser.add_argument(
-        "--split_size", type=float, help="Split size for the dataloader".capitalize()
+        "--batch_size",
+        type=int,
+        default=64,
+        help="Batch size for the dataloader".capitalize(),
+    )
+    parser.add_argument(
+        "--split_size",
+        default=0.20,
+        type=float,
+        help="Split size for the dataloader".capitalize(),
     )
     parser.add_argument(
         "--epochs", type=int, default=10, help="Number of epochs".capitalize()

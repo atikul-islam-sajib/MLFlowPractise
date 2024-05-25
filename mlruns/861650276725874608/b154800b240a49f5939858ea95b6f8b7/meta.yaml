@@ -1,8 +1,9 @@
 artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/861650276725874608/b154800b240a49f5939858ea95b6f8b7/artifacts
+deleted_time: 1716661396878
 end_time: 1716653465545
 entry_point_name: ''
 experiment_id: '861650276725874608'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b154800b240a49f5939858ea95b6f8b7
 run_name: entertaining-jay-586
 run_uuid: b154800b240a49f5939858ea95b6f8b7

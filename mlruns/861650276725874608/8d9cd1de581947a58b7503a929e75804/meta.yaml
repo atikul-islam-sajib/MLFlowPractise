@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/861650276725874608/8d9cd1de581947a58b7503a929e75804/artifacts
+deleted_time: 1716661396877
+end_time: 1716661086966
+entry_point_name: ''
+experiment_id: '861650276725874608'
+lifecycle_stage: deleted
+run_id: 8d9cd1de581947a58b7503a929e75804
+run_name: aged-grub-511
+run_uuid: 8d9cd1de581947a58b7503a929e75804
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716661086917
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman
