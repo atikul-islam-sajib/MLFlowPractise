@@ -1,3 +1,4 @@
+import sys
 import os
 import numpy as np
 import traceback
@@ -6,6 +7,10 @@ import pandas as pd
 from torch.utils.data import DataLoader
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
+
+sys.path.append("src/")
+
+from utils import dump
 
 
 class Loader:

@@ -1,4 +1,5 @@
 import joblib
+import yaml
 
 
 def dump(value=None, filename=None):
@@ -14,3 +15,8 @@ def load(filename=None):
         return joblib.load(filename=filename)
     else:
         raise ValueError("filename must not be None".capitalize())
+
+
+def config():
+    with open("./config.yaml", "r") as f:
+        return yaml.safe_load(f)
