@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/700366731218004608/bfb78db3979e4d948a2bc17ddd160ed4/artifacts
+deleted_time: 1716647716166
+end_time: 1716647393608
+entry_point_name: ''
+experiment_id: '700366731218004608'
+lifecycle_stage: deleted
+run_id: bfb78db3979e4d948a2bc17ddd160ed4
+run_name: loud-koi-465
+run_uuid: bfb78db3979e4d948a2bc17ddd160ed4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716647393515
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

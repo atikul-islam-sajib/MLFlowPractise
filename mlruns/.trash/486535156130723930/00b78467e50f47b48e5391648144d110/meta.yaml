@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/486535156130723930/00b78467e50f47b48e5391648144d110/artifacts
+deleted_time: 1716650026470
+end_time: 1716649908996
+entry_point_name: ''
+experiment_id: '486535156130723930'
+lifecycle_stage: deleted
+run_id: 00b78467e50f47b48e5391648144d110
+run_name: popular-penguin-194
+run_uuid: 00b78467e50f47b48e5391648144d110
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649902376
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

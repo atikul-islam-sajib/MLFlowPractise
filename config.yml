@@ -1,4 +1,5 @@
 path:
+  raw_path: ./data/raw/
   processed_path: ./data/processed/
   files_path: ./files/
   train_models_path: ./checkpoints/train_models/

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/643914006689753696/b6d281ae80664e14801c422cd1917749/artifacts
+deleted_time: 1716649642877
+end_time: 1716649233571
+entry_point_name: ''
+experiment_id: '643914006689753696'
+lifecycle_stage: deleted
+run_id: b6d281ae80664e14801c422cd1917749
+run_name: placid-crow-214
+run_uuid: b6d281ae80664e14801c422cd1917749
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649232009
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

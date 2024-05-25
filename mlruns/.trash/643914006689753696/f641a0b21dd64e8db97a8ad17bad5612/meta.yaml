@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/643914006689753696/f641a0b21dd64e8db97a8ad17bad5612/artifacts
+deleted_time: 1716649642877
+end_time: 1716649214874
+entry_point_name: ''
+experiment_id: '643914006689753696'
+lifecycle_stage: deleted
+run_id: f641a0b21dd64e8db97a8ad17bad5612
+run_name: peaceful-ant-749
+run_uuid: f641a0b21dd64e8db97a8ad17bad5612
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649213291
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

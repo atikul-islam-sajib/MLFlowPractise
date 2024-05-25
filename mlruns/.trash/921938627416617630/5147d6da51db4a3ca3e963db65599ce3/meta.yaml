@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/921938627416617630/5147d6da51db4a3ca3e963db65599ce3/artifacts
+deleted_time: 1716647917830
+end_time: 1716647906916
+entry_point_name: ''
+experiment_id: '921938627416617630'
+lifecycle_stage: deleted
+run_id: 5147d6da51db4a3ca3e963db65599ce3
+run_name: mercurial-mole-36
+run_uuid: 5147d6da51db4a3ca3e963db65599ce3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716647905927
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

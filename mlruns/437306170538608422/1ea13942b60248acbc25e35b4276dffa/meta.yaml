@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/437306170538608422/1ea13942b60248acbc25e35b4276dffa/artifacts
+end_time: 1716650120855
+entry_point_name: ''
+experiment_id: '437306170538608422'
+lifecycle_stage: active
+run_id: 1ea13942b60248acbc25e35b4276dffa
+run_name: resilient-panda-561
+run_uuid: 1ea13942b60248acbc25e35b4276dffa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716650114222
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

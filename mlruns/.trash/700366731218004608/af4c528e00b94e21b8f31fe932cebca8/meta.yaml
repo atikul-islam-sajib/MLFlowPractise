@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/700366731218004608/af4c528e00b94e21b8f31fe932cebca8/artifacts
+deleted_time: 1716647716166
+end_time: 1716647644014
+entry_point_name: ''
+experiment_id: '700366731218004608'
+lifecycle_stage: deleted
+run_id: af4c528e00b94e21b8f31fe932cebca8
+run_name: rumbling-boar-941
+run_uuid: af4c528e00b94e21b8f31fe932cebca8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716647642978
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

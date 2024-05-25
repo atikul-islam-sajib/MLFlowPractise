@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/643914006689753696/10a1cefc39b74c618ca409f97814a37c/artifacts
+deleted_time: 1716649642877
+end_time: 1716649175845
+entry_point_name: ''
+experiment_id: '643914006689753696'
+lifecycle_stage: deleted
+run_id: 10a1cefc39b74c618ca409f97814a37c
+run_name: indecisive-mole-606
+run_uuid: 10a1cefc39b74c618ca409f97814a37c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649174237
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

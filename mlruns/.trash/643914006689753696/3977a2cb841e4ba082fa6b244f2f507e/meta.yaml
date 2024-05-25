@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/643914006689753696/3977a2cb841e4ba082fa6b244f2f507e/artifacts
+deleted_time: 1716649642877
+end_time: 1716649267138
+entry_point_name: ''
+experiment_id: '643914006689753696'
+lifecycle_stage: deleted
+run_id: 3977a2cb841e4ba082fa6b244f2f507e
+run_name: judicious-carp-66
+run_uuid: 3977a2cb841e4ba082fa6b244f2f507e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649265552
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/643914006689753696/3597929d373b4e99a1396ce8b6ddf558/artifacts
+deleted_time: 1716649642877
+end_time: 1716649285843
+entry_point_name: ''
+experiment_id: '643914006689753696'
+lifecycle_stage: deleted
+run_id: 3597929d373b4e99a1396ce8b6ddf558
+run_name: dapper-crab-239
+run_uuid: 3597929d373b4e99a1396ce8b6ddf558
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649284293
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

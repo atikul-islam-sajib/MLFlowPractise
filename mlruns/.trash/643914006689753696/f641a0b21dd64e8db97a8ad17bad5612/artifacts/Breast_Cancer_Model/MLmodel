@@ -1,0 +1,19 @@
+artifact_path: Breast_Cancer_Model
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.9.18
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.1.2
+mlflow_version: 2.8.0
+model_size_bytes: 75668
+model_uuid: 31c611c78599486fa21343ed3463d334
+run_id: f641a0b21dd64e8db97a8ad17bad5612
+utc_time_created: '2024-05-25 15:00:13.375792'

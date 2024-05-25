@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/643914006689753696/6ff31dae4e074a5ead17bc15914deda0/artifacts
+deleted_time: 1716649642877
+end_time: 1716649604082
+entry_point_name: ''
+experiment_id: '643914006689753696'
+lifecycle_stage: deleted
+run_id: 6ff31dae4e074a5ead17bc15914deda0
+run_name: whimsical-foal-344
+run_uuid: 6ff31dae4e074a5ead17bc15914deda0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649602497
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

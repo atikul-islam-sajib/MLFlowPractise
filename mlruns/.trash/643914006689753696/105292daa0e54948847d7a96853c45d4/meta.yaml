@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/643914006689753696/105292daa0e54948847d7a96853c45d4/artifacts
+deleted_time: 1716649642877
+end_time: 1716649526480
+entry_point_name: ''
+experiment_id: '643914006689753696'
+lifecycle_stage: deleted
+run_id: 105292daa0e54948847d7a96853c45d4
+run_name: traveling-fish-844
+run_uuid: 105292daa0e54948847d7a96853c45d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649524899
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

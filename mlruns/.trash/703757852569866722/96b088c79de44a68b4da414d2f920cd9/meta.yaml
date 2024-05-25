@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/703757852569866722/96b088c79de44a68b4da414d2f920cd9/artifacts
+deleted_time: 1716648038170
+end_time: 1716648027346
+entry_point_name: ''
+experiment_id: '703757852569866722'
+lifecycle_stage: deleted
+run_id: 96b088c79de44a68b4da414d2f920cd9
+run_name: rare-fox-89
+run_uuid: 96b088c79de44a68b4da414d2f920cd9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716648026349
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

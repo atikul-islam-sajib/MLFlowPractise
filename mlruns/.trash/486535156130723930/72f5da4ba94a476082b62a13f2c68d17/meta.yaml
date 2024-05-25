@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/486535156130723930/72f5da4ba94a476082b62a13f2c68d17/artifacts
+deleted_time: 1716650026470
+end_time: 1716649872357
+entry_point_name: ''
+experiment_id: '486535156130723930'
+lifecycle_stage: deleted
+run_id: 72f5da4ba94a476082b62a13f2c68d17
+run_name: melodic-midge-938
+run_uuid: 72f5da4ba94a476082b62a13f2c68d17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649865733
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

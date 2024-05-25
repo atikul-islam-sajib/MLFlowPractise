@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/643914006689753696/6ded175cb3564727af785b37ab8cbf3c/artifacts
+deleted_time: 1716649642877
+end_time: 1716649245828
+entry_point_name: ''
+experiment_id: '643914006689753696'
+lifecycle_stage: deleted
+run_id: 6ded175cb3564727af785b37ab8cbf3c
+run_name: skillful-zebra-757
+run_uuid: 6ded175cb3564727af785b37ab8cbf3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649244265
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

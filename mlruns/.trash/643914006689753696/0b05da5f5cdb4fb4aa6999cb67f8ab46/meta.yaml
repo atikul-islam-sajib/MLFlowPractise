@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/643914006689753696/0b05da5f5cdb4fb4aa6999cb67f8ab46/artifacts
+deleted_time: 1716649642877
+end_time: 1716649311627
+entry_point_name: ''
+experiment_id: '643914006689753696'
+lifecycle_stage: deleted
+run_id: 0b05da5f5cdb4fb4aa6999cb67f8ab46
+run_name: big-panda-701
+run_uuid: 0b05da5f5cdb4fb4aa6999cb67f8ab46
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649310069
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

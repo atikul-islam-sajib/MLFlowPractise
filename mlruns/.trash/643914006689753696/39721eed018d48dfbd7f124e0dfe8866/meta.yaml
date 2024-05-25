@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/643914006689753696/39721eed018d48dfbd7f124e0dfe8866/artifacts
+deleted_time: 1716649642877
+end_time: 1716649085018
+entry_point_name: ''
+experiment_id: '643914006689753696'
+lifecycle_stage: deleted
+run_id: 39721eed018d48dfbd7f124e0dfe8866
+run_name: hilarious-wren-369
+run_uuid: 39721eed018d48dfbd7f124e0dfe8866
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649083279
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

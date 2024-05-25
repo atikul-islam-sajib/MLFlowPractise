@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/700366731218004608/7bc236c5a9874972972aaaa99008a4ad/artifacts
+deleted_time: 1716647716166
+end_time: 1716647457204
+entry_point_name: ''
+experiment_id: '700366731218004608'
+lifecycle_stage: deleted
+run_id: 7bc236c5a9874972972aaaa99008a4ad
+run_name: bedecked-panda-437
+run_uuid: 7bc236c5a9874972972aaaa99008a4ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716647457129
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

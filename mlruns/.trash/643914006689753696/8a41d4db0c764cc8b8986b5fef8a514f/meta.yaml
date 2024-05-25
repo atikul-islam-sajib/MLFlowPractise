@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/643914006689753696/8a41d4db0c764cc8b8986b5fef8a514f/artifacts
+deleted_time: 1716649642877
+end_time: 1716649349135
+entry_point_name: ''
+experiment_id: '643914006689753696'
+lifecycle_stage: deleted
+run_id: 8a41d4db0c764cc8b8986b5fef8a514f
+run_name: bouncy-grouse-16
+run_uuid: 8a41d4db0c764cc8b8986b5fef8a514f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649347579
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

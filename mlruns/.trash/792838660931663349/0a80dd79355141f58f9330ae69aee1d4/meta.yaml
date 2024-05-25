@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/792838660931663349/0a80dd79355141f58f9330ae69aee1d4/artifacts
+deleted_time: 1716650104836
+end_time: 1716650039627
+entry_point_name: ''
+experiment_id: '792838660931663349'
+lifecycle_stage: deleted
+run_id: 0a80dd79355141f58f9330ae69aee1d4
+run_name: nervous-newt-295
+run_uuid: 0a80dd79355141f58f9330ae69aee1d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716650033020
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

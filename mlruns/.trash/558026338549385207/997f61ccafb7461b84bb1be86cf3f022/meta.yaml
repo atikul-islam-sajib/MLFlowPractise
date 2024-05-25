@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/558026338549385207/997f61ccafb7461b84bb1be86cf3f022/artifacts
+deleted_time: 1716647898865
+end_time: 1716647825555
+entry_point_name: ''
+experiment_id: '558026338549385207'
+lifecycle_stage: deleted
+run_id: 997f61ccafb7461b84bb1be86cf3f022
+run_name: clean-shad-515
+run_uuid: 997f61ccafb7461b84bb1be86cf3f022
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716647824562
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/486535156130723930/4847461ea5bc4956a44896d56511e3fc/artifacts
+deleted_time: 1716650026470
+end_time: 1716649969650
+entry_point_name: ''
+experiment_id: '486535156130723930'
+lifecycle_stage: deleted
+run_id: 4847461ea5bc4956a44896d56511e3fc
+run_name: rambunctious-tern-26
+run_uuid: 4847461ea5bc4956a44896d56511e3fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649963037
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

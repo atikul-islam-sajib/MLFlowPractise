@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/643914006689753696/ac86ed7760d2456b8bc7295a8191d1e9/artifacts
+deleted_time: 1716649642877
+end_time: 1716649301769
+entry_point_name: ''
+experiment_id: '643914006689753696'
+lifecycle_stage: deleted
+run_id: ac86ed7760d2456b8bc7295a8191d1e9
+run_name: caring-sponge-438
+run_uuid: ac86ed7760d2456b8bc7295a8191d1e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649300210
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

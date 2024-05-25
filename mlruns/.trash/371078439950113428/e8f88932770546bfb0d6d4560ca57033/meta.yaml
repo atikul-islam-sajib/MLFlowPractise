@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/371078439950113428/e8f88932770546bfb0d6d4560ca57033/artifacts
+deleted_time: 1716648930627
+end_time: 1716648178201
+entry_point_name: ''
+experiment_id: '371078439950113428'
+lifecycle_stage: deleted
+run_id: e8f88932770546bfb0d6d4560ca57033
+run_name: likeable-midge-687
+run_uuid: e8f88932770546bfb0d6d4560ca57033
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716648175587
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/371078439950113428/4993c1b7b7a345738c3865347b0d47fc/artifacts
+deleted_time: 1716648930627
+end_time: 1716648414349
+entry_point_name: ''
+experiment_id: '371078439950113428'
+lifecycle_stage: deleted
+run_id: 4993c1b7b7a345738c3865347b0d47fc
+run_name: classy-crow-810
+run_uuid: 4993c1b7b7a345738c3865347b0d47fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716648407606
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

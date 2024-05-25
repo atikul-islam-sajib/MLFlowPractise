@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/643914006689753696/ed74b25fe1e04da085168f2cf238f0d0/artifacts
+deleted_time: 1716649642877
+end_time: 1716649549687
+entry_point_name: ''
+experiment_id: '643914006689753696'
+lifecycle_stage: deleted
+run_id: ed74b25fe1e04da085168f2cf238f0d0
+run_name: delicate-pig-455
+run_uuid: ed74b25fe1e04da085168f2cf238f0d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649548110
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

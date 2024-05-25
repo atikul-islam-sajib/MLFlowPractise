@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/486535156130723930/e702e256290647d891a8b412c96cfb1c/artifacts
+deleted_time: 1716650026470
+end_time: 1716649817205
+entry_point_name: ''
+experiment_id: '486535156130723930'
+lifecycle_stage: deleted
+run_id: e702e256290647d891a8b412c96cfb1c
+run_name: overjoyed-snake-209
+run_uuid: e702e256290647d891a8b412c96cfb1c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716649810626
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman
