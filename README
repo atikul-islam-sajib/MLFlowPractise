@@ -19,8 +19,8 @@ This project provides tools for training and testing a machine learning model fo
 Clone the repository and install the required packages:
 
 ```bash
-git clone https://github.com/yourusername/breast-cancer-classification.git
-cd breast-cancer-classification
+git clone https://github.com/yourusername/MLFlowPractise.git
+cd MLFlowPractise
 pip install -r requirements.txt
 ```
 
@@ -70,7 +70,7 @@ To view the MLflow tracking UI, run:
 mlflow ui
 ```
 
-This will start the MLflow server and you can access the UI at `http://localhost:5000` to visualize your experiment runs and metrics.
+This will start the MLflow server, and you can access the UI at `http://localhost:5000` to visualize your experiment runs and metrics.
 
 ## Project Structure
 
@@ -83,5 +83,4 @@ This will start the MLflow server and you can access the UI at `http://localhost
 
 ## Contact
 
-For any questions or issues, please contact Atikul Islam Sajib
-
+For any questions or issues, please contact Atikul Islam Sajib.
