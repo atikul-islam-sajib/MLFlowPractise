@@ -1,20 +1,15 @@
 import os
 import torch
+import json
 import mlflow
+import dagshub
 import argparse
 import numpy as np
 from tqdm import tqdm
 from utils import config, dump, load
 from helper import helpers
 import matplotlib.pyplot as plt
-from sklearn.metrics import (
-    accuracy_score,
-    precision_score,
-    recall_score,
-    f1_score,
-    roc_auc_score,
-    confusion_matrix,
-)
+from sklearn.metrics import accuracy_score, precision_score, recall_score
 
 
 class Trainer:

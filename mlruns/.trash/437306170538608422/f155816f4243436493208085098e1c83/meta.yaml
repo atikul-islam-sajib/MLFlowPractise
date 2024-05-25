@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/437306170538608422/f155816f4243436493208085098e1c83/artifacts
+deleted_time: 1716653168213
+end_time: 1716652726588
+entry_point_name: ''
+experiment_id: '437306170538608422'
+lifecycle_stage: deleted
+run_id: f155816f4243436493208085098e1c83
+run_name: angry-hen-337
+run_uuid: f155816f4243436493208085098e1c83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716652726506
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

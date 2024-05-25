@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/437306170538608422/cf1c8029507a40fc943852fe87299745/artifacts
+deleted_time: 1716653168213
+end_time: 1716652364648
+entry_point_name: ''
+experiment_id: '437306170538608422'
+lifecycle_stage: deleted
+run_id: cf1c8029507a40fc943852fe87299745
+run_name: auspicious-hog-382
+run_uuid: cf1c8029507a40fc943852fe87299745
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716652364554
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

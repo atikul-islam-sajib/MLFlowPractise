@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/437306170538608422/7836500171624617bff5f49a81c657ef/artifacts
+deleted_time: 1716653168213
+end_time: 1716652581643
+entry_point_name: ''
+experiment_id: '437306170538608422'
+lifecycle_stage: deleted
+run_id: 7836500171624617bff5f49a81c657ef
+run_name: secretive-kit-209
+run_uuid: 7836500171624617bff5f49a81c657ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716652578736
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman
