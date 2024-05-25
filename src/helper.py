@@ -1,9 +1,9 @@
 import os
 import torch
 import torch.nn as nn
+from model import Model
 import torch.optim as optim
 from utils import load, config
-from model import Model
 
 
 def load_dataloader():
