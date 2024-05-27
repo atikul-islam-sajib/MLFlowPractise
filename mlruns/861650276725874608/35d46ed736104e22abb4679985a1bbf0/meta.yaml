@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/861650276725874608/35d46ed736104e22abb4679985a1bbf0/artifacts
+end_time: 1716843652864
+entry_point_name: ''
+experiment_id: '861650276725874608'
+lifecycle_stage: active
+run_id: 35d46ed736104e22abb4679985a1bbf0
+run_name: brawny-sow-738
+run_uuid: 35d46ed736104e22abb4679985a1bbf0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716843650423
+status: 3
+tags: []
+user_id: shahmuhammadraditrahman

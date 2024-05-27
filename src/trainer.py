@@ -218,9 +218,9 @@ class Trainer:
 
             mlflow.pytorch.log_model(self.model, "Breast_Cancer_Model")
 
-            mlflow.log_artifact(
-                os.path.join(self.files_path, "Model.jpeg"),
-            )
+            # mlflow.log_artifact(
+            #     os.path.join(self.files_path, "Model.jpeg"),
+            # )
 
             mlflow.log_artifacts(
                 os.path.join(

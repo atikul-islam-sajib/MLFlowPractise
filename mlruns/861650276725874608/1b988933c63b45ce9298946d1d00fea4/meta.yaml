@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shahmuhammadraditrahman/Desktop/MLFlowPractise/mlruns/861650276725874608/1b988933c63b45ce9298946d1d00fea4/artifacts
+end_time: 1716843327785
+entry_point_name: ''
+experiment_id: '861650276725874608'
+lifecycle_stage: active
+run_id: 1b988933c63b45ce9298946d1d00fea4
+run_name: gaudy-wolf-612
+run_uuid: 1b988933c63b45ce9298946d1d00fea4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716843320439
+status: 4
+tags: []
+user_id: shahmuhammadraditrahman

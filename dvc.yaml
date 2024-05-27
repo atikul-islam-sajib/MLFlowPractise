@@ -1,0 +1,27 @@
+stages:
+  train:
+    cmd: python src/cli.py --dataset ./data/raw/breast-cancer.csv --batch_size 32 --split_size 0.20 --epochs 10 --lr 0.01 --display True --train
+    deps:
+      - src/cli.py
+      - src/dataloader.py
+      - src/model.py
+      - src/trainer.py
+      - src/helper.py
+      - src/utils.py
+      - ./data/processed/
+      - ./files/
+      - ./config.yml
+      - ./data/raw/breast-cancer.csv
+    outs:
+      - ./checkpoints/: 
+          persist: true
+
+
+  test:
+    cmd: python src/cli.py --test
+
+    deps:
+      - src/cli.py
+      - src/utils.py
+      - src/model.py
+      - ./checkpoints/
