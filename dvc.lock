@@ -1,0 +1,74 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/cli.py --dataset ./data/raw/breast-cancer.csv --batch_size 32
+      --split_size 0.20 --epochs 10 --lr 0.01 --display True --train
+    deps:
+    - path: ./config.yml
+      hash: md5
+      md5: 2d90f2fd4f509435c052b29f171a2759
+      size: 182
+    - path: ./data/processed/
+      hash: md5
+      md5: 84d4845adb0e6dfb7538131d75b004d9.dir
+      size: 28481672
+      nfiles: 2
+    - path: ./data/raw/breast-cancer.csv
+      hash: md5
+      md5: 2e145752c5e9df5fe367d25b6a9d9179
+      size: 124571
+    - path: ./files/
+      hash: md5
+      md5: c77dcb86d0ed54985443bf8483b25335.dir
+      size: 42523
+      nfiles: 2
+    - path: src/cli.py
+      hash: md5
+      md5: 5c0f02c58b9b5d4f8da0ace6306c5251
+      size: 2353
+    - path: src/dataloader.py
+      hash: md5
+      md5: 6926a7ef0cfc1cb6588aeffbdf7f7dce
+      size: 3137
+    - path: src/helper.py
+      hash: md5
+      md5: d9729875ac28cf1bd51ea191d88e36ec
+      size: 1794
+    - path: src/model.py
+      hash: md5
+      md5: e44373b73d3260672f1493534c34d0f0
+      size: 1805
+    - path: src/trainer.py
+      hash: md5
+      md5: ab7b0070fde67c95410c28172444d1a2
+      size: 9903
+    - path: src/utils.py
+      hash: md5
+      md5: f166bc29f75c53cccf511ebfa592ceeb
+      size: 529
+    outs:
+    - path: ./checkpoints/
+      hash: md5
+      md5: 85193c4af9b55cd91fc9085e9cd94e7f.dir
+      size: 797200
+      nfiles: 13
+  test:
+    cmd: python src/cli.py --test
+    deps:
+    - path: ./checkpoints/
+      hash: md5
+      md5: 85193c4af9b55cd91fc9085e9cd94e7f.dir
+      size: 797200
+      nfiles: 13
+    - path: src/cli.py
+      hash: md5
+      md5: 5c0f02c58b9b5d4f8da0ace6306c5251
+      size: 2353
+    - path: src/model.py
+      hash: md5
+      md5: e44373b73d3260672f1493534c34d0f0
+      size: 1805
+    - path: src/utils.py
+      hash: md5
+      md5: f166bc29f75c53cccf511ebfa592ceeb
+      size: 529
